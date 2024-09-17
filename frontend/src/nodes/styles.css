@@ -1,0 +1,34 @@
+.base-node {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background: #fff;
+}
+
+.base-node .header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.base-node .content {
+    margin-top: 10px;
+}
+
+.react-flow__node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.llm-node-content {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position: relative;
+}
